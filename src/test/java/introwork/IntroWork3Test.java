@@ -2,6 +2,8 @@ package introwork;
 
 import core.ChromeDriverTest;
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import java.io.File;
 
@@ -16,6 +18,9 @@ public class IntroWork3Test extends ChromeDriverTest {
         driver.get(url);
         
         // TODO 以下を削除して、代わりに文字列を入力する処理を記述してください
+        WebElement userName = driver.findElement(By.id("subject"));
+        userName.clear();
+        userName.sendKeys("Selenium");
         Thread.sleep(8000);
         // TODO ここまで削除してください
     }

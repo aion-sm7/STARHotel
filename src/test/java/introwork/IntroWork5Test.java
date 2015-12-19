@@ -2,6 +2,8 @@ package introwork;
 
 import core.ChromeDriverTest;
 import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 import java.io.File;
 
@@ -16,6 +18,7 @@ public class IntroWork5Test extends ChromeDriverTest {
         driver.get(url);
         
         // TODO 以下を削除して、代わりにチェックボックスを選択する処理を記述ください
+        WebElement chk = driver.findElement(By.id(""));
         Thread.sleep(8000);
         // TODO ここまで削除してください
     }
