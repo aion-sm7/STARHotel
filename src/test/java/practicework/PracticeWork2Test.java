@@ -23,7 +23,7 @@ public class PracticeWork2Test extends ChromeDriverTest {
 
     @Test
     public void testReserveWith9MmebersUsingPageObject() throws Exception {
-        File html = new File("reserveApp/index.html");
+        File html = new File("reserveApp_Renewal/index.html");
         String url = html.toURI().toString();
         driver.get(url);
         
@@ -55,7 +55,7 @@ public class PracticeWork2Test extends ChromeDriverTest {
         assertThat(confirmPage.getGuestName(), is("aaaa"));
 
         ReserveConfirmPage.ReserveCommitPage commitPage = confirmPage.goToNext1();
-        assertThat(commitPage.getFinish(), is("予約を完了しました。"));
+        assertThat(commitPage.getFinish(), is("予約を完了しました"));
 
     }
 }
