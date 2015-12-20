@@ -14,3 +14,9 @@ https://docs.google.com/document/d/1vex35wLGv5BAjMCRilkxHNRjIkXuPupAj6mWVhEdM7w/
 screen shot
 ===========
 !["preview"](https://github.com/snsk/STARHOTEL/blob/master/ss.png?raw=true)
+
+THIS STAR HOTEL WAS CHANGED
+
+FOR
+SHIFT INTERN 2015.12.19-21
+T. Matsumoto
